@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>TuCaféCCC | Contacto</title>
+</head>
+<body>
+    <header class="header"> <!-- Bar & Title Card -->
+        <div class="bar"> <!-- Bar -->
+            <div class="barLogo"> <!-- Logo -->
+                <a class="textSize" href="index.html">TuCaféCCC</a>
+            </div>
+            <ul class="barLinks"> <!-- Links -->
+                <li><a class="textSize" href="order.html">Pide tu orden</a></li>
+                <li><a class="textSize" href="about.html">Acerca De</a></li>
+                <li><a class="textSize" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="titlecard"> <!-- Title Card -->
+            <h1 class="titlecardText2">Contáctanos</h1>
+        </div>
+    </header>
+    <main class="main">
+        <form action="" method="get" class="contacto">
+            <div class="contactoValue">
+                <label for="name">Nombre:</label>
+                <input class="contactoArea" type="text" name="name" id="name" required>
+            </div>
+            <div class="contactoValue">
+                <label for="email">Correo:</label>
+                <input class="contactoArea" type="email" name="email" id="email" required>
+            </div>
+            <div class="contactoValue">
+                <label for="msg">Mensaje:</label>
+                <textarea class="contactoArea" name="msg" id="msg" cols="30" rows="10" placeholder="Máx. 500 carácteres" maxlength="500"></textarea>
+            </div>
+            <input class="contactoEnviar" type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer class="footer">
+        <div class="footerBar"> <!-- Bar -->
+            <div class="barLogo"> <!-- Logo -->
+                <a class="textSize" href="#">TuCaféCCC</a>
+            </div>
+            <ul class="barLinks"> <!-- Links -->
+                <li><a class="textSize" href="order.html">Pide tu orden</a></li>
+                <li><a class="textSize" href="about.html">Acerca De</a></li>
+                <li><a class="textSize" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
